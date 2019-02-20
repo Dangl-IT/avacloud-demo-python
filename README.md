@@ -16,6 +16,8 @@ Ensure that the client dependency is installed:
     pip install git+https://github.com/Dangl-IT/avacloud-client-python.git
     pip install requests
 
+> Tip: When installing the `avacloud-client-python` dependency, you can optionally use a fixed version instead of the latest by appending `@{version}` at the end, e.g. `pip install git+https://github.com/Dangl-IT/avacloud-client-python.git@v1.5.0`
+
 ## Run
 
 Execute the following command in the root directory of the project:
@@ -30,10 +32,11 @@ At the top of the `hello_avacloud.py` file, the following parameters must be def
 These are the credentials of your [**Dangl.Identity**](https://identity.dangl-it.com) OAuth2 client that is configured to access **AVA**Cloud.  
 If you don't have values for `ClientId` and `ClientSecret` yet, you can [check out the documentation](https://docs.dangl-it.com/Projects/AVACloud/latest/howto/registration/developer_signup.html) for instructions on how to register for **AVA**Cloud and create an OAuth2 client.
 
-This example app does two operations:
+This example app does three operations:
 
-1. The local GAEB file is transformed to Excel and saved next to the input file
+1. The local GAEB file is transformed to Excel and saved next to the input file.
 2. The local GAEB file is converted to the unified **Dangl.AVA** format and printed to the console.
+3. A new GAEB file is created and saved in the project directory.
 
 ---
 [License](./LICENSE.md)
