@@ -14,17 +14,18 @@ This project here contains example code in Python to read and convert GAEB files
 Ensure that the client dependency is installed:
 
     pip install git+https://github.com/Dangl-IT/avacloud-client-python.git
+    pip install requests
 
 ## Run
 
 Execute the following command in the root directory of the project:
 
-    python hello.py
+    python hello_avacloud.py
 
 At the top of the `hello_avacloud.py` file, the following parameters must be defined by you:
 
-    client_id = 'aadf8d01-8c3d-4906-9470-7a909291f923'
-    client_secret = 'MM7ru87JPbeSD2GTMp7c'
+    client_id = 'use_your_own_value'
+    client_secret = 'use_your_own_value'
 
 These are the credentials of your [**Dangl.Identity**](https://identity.dangl-it.com) OAuth2 client that is configured to access **AVA**Cloud.  
 If you don't have values for `ClientId` and `ClientSecret` yet, you can [check out the documentation](https://docs.dangl-it.com/Projects/AVACloud/latest/howto/registration/developer_signup.html) for instructions on how to register for **AVA**Cloud and create an OAuth2 client.
