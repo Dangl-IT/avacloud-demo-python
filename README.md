@@ -16,7 +16,7 @@ Ensure that the client dependency is installed:
     pip install git+https://github.com/Dangl-IT/avacloud-client-python.git
     pip install requests
 
-> Tip: When installing the `avacloud-client-python` dependency, you can optionally use a fixed version instead of the latest by appending `@{version}` at the end, e.g. `pip install git+https://github.com/Dangl-IT/avacloud-client-python.git@v1.5.0`
+> Tip: When installing the `avacloud-client-python` dependency, you can optionally use a fixed version instead of the latest by appending `@{version}` at the end, e.g. `pip install git+https://github.com/Dangl-IT/avacloud-client-python.git@1.5.1`
 
 ## Run
 
