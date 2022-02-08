@@ -38,5 +38,8 @@ This example app does three operations:
 2. The local GAEB file is converted to the unified **Dangl.AVA** format and printed to the console.
 3. A new GAEB file is created and saved in the project directory.
 
+> **Note**: There's also `hello_new_project.py` as an example that creates a new GAEB file from JSON input via **AVACloud**.
+
 ---
+
 [License](./LICENSE.md)
